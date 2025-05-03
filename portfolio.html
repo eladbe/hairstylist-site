@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Hair Stylist Portfolio</title>
+  <style>
+    body {
+      font-family: 'Dancing Script', cursive;
+      margin: 0;
+      padding: 20px;
+      background-color: #2E2E2E;
+      color: #D4E0E0; 
+      font-size: 18px;
+    }
+
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 60px;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Parisienne', cursive;
+      font-size: 48px;
+      text-align: center;
+    }
+
+    .image-grid-5, .image-grid-3, .image-grid-2, .video-grid {
+      display: grid;
+      gap: 20px;
+      max-width: 1200px;
+      margin: 20px auto;
+    }
+
+    .image-grid-5 {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
+    .image-grid-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .image-grid-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .image-grid-5 img, .image-grid-3 img, .image-grid-2 img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .video-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      margin: 40px auto;
+    }
+
+    .video-grid video {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .top-nav {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      padding: 15px 30px;
+      background-color: #2E2E2E;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+    }
+
+    .appointment-button {
+  background-color: #B1462E;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif; /* ← Add this line */
+}
+
+    .social-icon img {
+      width: 24px;
+      height: 24px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="top-nav">
+    <div class="nav-right">
+      <a href="https://vann.studio/request-appointment/" 
+         class="appointment-button"
+         target="_blank" 
+         rel="noopener noreferrer"> Make an Appointment</a>
+
+      <a href="https://www.instagram.com/atkinson.tm/" 
+         class="social-icon" 
+         target="_blank" 
+         rel="noopener noreferrer">
+        <img src="instagram-icon.png" alt="Instagram" />
+      </a>
+    </div>
+  </nav>
+
+  <h1>Timothy Atkinson</h1>
+  <h2>Hair Stylist Portfolio</h2>
+
+  <div class="image-grid-3">
+    <img src="ImageA1.png" alt="Hair style 1">
+    <img src="ImageA2.png" alt="Hair style 2">
+    <img src="ImageA3.png" alt="Hair style 3">
+  </div>
+
+  <div class="video-grid">
+    <video controls>
+      <source src="Video_A.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls>
+      <source src="Video_B.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="image-grid-3">
+    <img src="ImageB1.png" alt="Hair style 1">
+    <img src="ImageB2.png" alt="Hair style 2">
+    <img src="ImageB3.png" alt="Hair style 3">
+  </div>
+
+  <div class="image-grid-2">
+    <img src="ImageC1.png" alt="Hair style 1">
+    <img src="ImageC2.png" alt="Hair style 2">
+  </div>
+
+  <div class="image-grid-3">
+    <img src="ImageE1.png" alt="Hair style 1">
+    <img src="ImageE2.png" alt="Hair style 2">
+    <img src="ImageE3.png" alt="Hair style 3">
+  </div>
+
+  <div class="image-grid-5">
+    <img src="ImageD1.png" alt="Hair style 1">
+    <img src="ImageD2.png" alt="Hair style 2">
+    <img src="ImageD3.png" alt="Hair style 3">
+    <img src="ImageD4.png" alt="Hair style 4">
+    <img src="ImageD5.png" alt="Hair style 5">
+  </div>
+
+
+
+  <div class="video-grid">
+    <video controls>
+      <source src="Video_C.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls>
+      <source src="Video_E.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="image-grid-5">
+    <img src="ImageF1.png" alt="Hair style 1">
+    <img src="ImageF2.png" alt="Hair style 2">
+    <img src="ImageF3.png" alt="Hair style 3">
+    <img src="ImageF4.png" alt="Hair style 4">
+    <img src="ImageF5.png" alt="Hair style 5">
+  </div>
+
+  <div class="image-grid-3">
+    <img src="ImageG1.png" alt="Hair style 1">
+    <img src="ImageG4.png" alt="Hair style 2">
+    <img src="ImageG5.png" alt="Hair style 3">
+  </div>
+
+  <div class="video-grid">
+    <video controls>
+      <source src="Video_D.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls>
+      <source src="Video_F.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="image-grid-3">
+    <img src="ImageH1.png" alt="Hair style 1">
+    <img src="ImageH2.png" alt="Hair style 2">
+    <img src="ImageH3.png" alt="Hair style 3">
+  </div>
+
+  <div class="image-grid-5">
+    <img src="ImageI5.png" alt="Hair style 1">
+    <img src="ImageI1.png" alt="Hair style 2">
+    <img src="ImageI2..png" alt="Hair style 3">
+    <img src="ImageI3.png" alt="Hair style 4">
+    <img src="ImageI4.png" alt="Hair style 5">
+  </div>
+
+  <div class="image-grid-3">
+    <img src="ImageJ1.png" alt="Hair style 1">
+    <img src="ImageJ2.png" alt="Hair style 2">
+    <img src="ImageJ3.png" alt="Hair style 3">
+  </div>
+
+  <div class="video-grid">
+    <video controls>
+      <source src="Video_G.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls>
+      <source src="Video_H.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <div class="image-grid-3">
+    <img src="ImageK1.png" alt="Hair style 1">
+    <img src="ImageK2.png" alt="Hair style 2">
+    <img src="ImageK3.png" alt="Hair style 3">
+  </div>
+
+  <div class="image-grid-5">
+    <img src="ImageM1.png" alt="Hair style 1">
+    <img src="ImageM2.png" alt="Hair style 2">
+    <img src="ImageM3.png" alt="Hair style 3">
+    <img src="ImageM4.png" alt="Hair style 4">
+    <img src="ImageM5.png" alt="Hair style 5">
+  </div>
+
+
+</body>
+</html>
