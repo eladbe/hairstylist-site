@@ -97,6 +97,16 @@
       width: 24px;
       height: 24px;
     }
+    @media (max-width: 768px) {
+  .image-grid-5,
+  .image-grid-3,
+  .image-grid-2,
+  .video-grid {
+    grid-template-columns: 1fr; /* stack one item per row */
+    gap: 16px;
+    padding: 0 10px;
+  }
+}
   </style>
 </head>
 <body>
